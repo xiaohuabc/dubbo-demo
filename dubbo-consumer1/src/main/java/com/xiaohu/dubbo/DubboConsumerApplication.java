@@ -10,7 +10,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @Date 2021/1/25 - 22:19
  * @Describe
  **/
-@EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
 public class DubboConsumerApplication {
